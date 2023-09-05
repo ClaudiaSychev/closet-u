@@ -1,0 +1,88 @@
+.assembling-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  margin: 10px;
+}
+
+.button-container > * {
+  padding-right: 5px;
+}
+
+.imageContainerToAssemble {
+  background-color: rgba(211, 211, 211, .8);;
+  border-left: 10px;
+  border-top: 150px;
+  margin: 25px;
+  max-width: 35%;
+  position: relative;
+  flex-grow: 4;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inspirationPhotoContainer {
+  background-color: rgba(211, 211, 211, .8);
+  position: relative;
+  flex-grow: 2;
+  margin-top: 25px;
+  max-height: 400px;
+}
+
+#reset_button2{
+  border: 2px;
+  max-height:70px;
+  justify-content: center !important;
+}
+
+
+.draggableImage {
+  max-width: 110;
+  max-height: 170px;
+  margin: 10px;
+  border: 2px solid black;
+  justify-self: center;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  position: relative;
+  z-index: 2;
+}
+
+.assemble {
+  /* display: grid; */
+  /* flex-wrap: wrap; */
+  border-left: 100px;
+  background-color:rgba(211, 211, 211, .8);;
+  align-self: right !important;
+  margin: 25px;
+  max-width: 35%;
+  min-height: 700px;
+  flex-grow: 4;
+}
+
+#message_to_assemble{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#help {
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  justify-self: center;
+}
+
+.spinner {
+  padding: 50px;
+}
+
+ /* grid-template-rows: 1fr 1fr; */

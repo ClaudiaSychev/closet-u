@@ -1,0 +1,61 @@
+.ClosetU-App {
+  font-family: 'Abril Fatface', cursive;
+  color: beige;
+  background-image: url('grey15.jpg');
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background-image: url('greyw17.jpg');
+  
+ }
+ 
+
+html {
+  /*background-image: url("./static/background1.jpg");*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login {
+  padding-left: 10px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#forms {
+  color: black;
+  font-family: 'Commissioner', sans-serif;
+  ;
+  font-size: 10px;
+}
+
+
+#title {
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  
+  text-align: center;
+}
+
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  /* background-color: white; */
+  
+  font-size: 40px;
+  border-bottom: black;
+}
+#wrapper{
+  background-color: rgba(211, 211, 211, .8);;
+
+}
+
+.menu {
+  padding: 30px;
+  display: flex;
+
+  justify-content: center;
+}
